@@ -1,0 +1,98 @@
+.sidebar {
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #242424;
+  padding: 25px 15px;
+  color: #f5f5f5;
+}
+
+.sidebar img {
+  width: 20px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+}
+
+.sidebar .menu {
+  display: block;
+  margin-left: 10px;
+  cursor: pointer;
+  filter: invert(100%);
+}
+
+.sidebar .new-chat {
+  margin-top: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #3a3a3a;
+  border-radius: 50px;
+  color: #e0e0e0;
+  cursor: pointer;
+  border: 1px solid #4a4a4a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar .new-chat img {
+  filter: invert(90%) sepia(10%) saturate(400%) hue-rotate(340deg)
+    brightness(120%);
+}
+
+.sidebar .recent {
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 1.5s;
+}
+
+.sidebar .recent-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.sidebar .recent-entry {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+  padding-right: 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidebar .recent-entry img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+}
+
+.sidebar .recent-entry:hover {
+  background-color: #333333;
+  box-shadow: inset 0 0 5px rgba(139, 0, 0, 0.3);
+}
+
+.sidebar .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .bottom-item {
+  padding-right: 10px;
+  cursor: pointer;
+  color: #d0d0d0;
+}
+
+.sidebar .bottom-item img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+}
+
+.sidebar .bottom-item:hover {
+  background-color: #333333;
+  box-shadow: inset 0 0 5px rgba(139, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
