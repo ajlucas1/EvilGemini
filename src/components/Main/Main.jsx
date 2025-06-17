@@ -43,7 +43,11 @@ const Main = () => {
         {showResult ? (
           <div className="result-display">
             <div className="result-title">
-              <img src={assets.evil_icon} alt="User Icon" />
+              <img
+                className="evil-image"
+                src={assets.evil_icon}
+                alt="User Icon"
+              />
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
