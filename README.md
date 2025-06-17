@@ -1,12 +1,27 @@
-# React + Vite
+# EVIL GEMINI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deployed with GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?style=flat&logo=github)](https://ajlucas1.github.io/crypto-tracker-2025/)
 
-Currently, two official plugins are available:
+## Table of Contents
+- [About The Project](#about-the-project)
+- [Live Demo](#live-demo)
+- [Built With](#built-with)
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About The Project
 
-## Expanding the ESLint configuration
+This project is a React-based chatbot powered by Google's Gemini API. It features a dark UI and an AI persona designed to act like a classic evil villain.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+Experience the application live: [https://ajlucas1.github.io/EvilGemini/](https://ajlucas1.github.io/EvilGemini/)
+
+## Built With
+
+This project was built using the following technologies:
+* [React](https://react.dev/)
+* [Vite](https://vitejs.dev/) (as the build tool)
+* [Gemini API](https://ai.google.dev/gemini-api/docs/api-key) 
+* HTML5
+* CSS3
